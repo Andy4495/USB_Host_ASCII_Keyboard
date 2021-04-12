@@ -4,6 +4,7 @@
 
 /*
  * USB Host ASCII Keyboard Driver
+ * https://github.com/Andy4495/USB_Host_ASCII_Keyboard
  * 
  * This sketch implements a simple USB to ASCII keyboard translator. 
  * It uses Serial.print() to output the ASCII character of the key pressed on the keyboard. 
@@ -12,10 +13,8 @@
  * An LED/Resistor combo can be connected to the Host Shield output pin 7 (NOT Arduino pin 7) and GND 
  * to indicate that a Keyboard is connected and running. 
  * 
- * Based on USBHIDBootKbd example sketch from USB Host Shield 2.0 Library:  
+ * Loosely based on USBHIDBootKbd example sketch from USB Host Shield 2.0 Library:  
  *   https://github.com/felis/USB_Host_Shield_2.0
- *   
- * License: GNU General Public License
  *   
  * 1.0 - 04/10/2021 - A.T. - Original 
  * 
