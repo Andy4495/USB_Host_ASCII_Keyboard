@@ -30,6 +30,10 @@ References
 * [USB Host Shield Library][1]
 * Host Shield [Project Page][5] by Oleg Mazurov
 
+License
+-------
+The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
+
 [1]: https://github.com/felis/USB_Host_Shield_2.0
 [2]: https://www.amazon.com/gp/product/B07J2KKGZ4
 [3]: https://www.maximintegrated.com/en/products/interface/controllers-expanders/MAX3421E.html
@@ -37,3 +41,5 @@ References
 [5]: https://chome.nerpa.tech/arduino_usb_host_shield_projects/
 [6]: https://chome.nerpa.tech/wp/wp-content/uploads/2011/02/uhs20s_pin_layout.jpg
 [7]: https://www.sparkfun.com/products/10915
+[100]: https://choosealicense.com/licenses/mit/
+[101]: ./LICENSE.txt
