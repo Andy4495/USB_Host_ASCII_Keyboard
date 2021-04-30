@@ -20,6 +20,7 @@ I used this [generic shield][2] from Amazon, along with a SparkFun [RedBoard][4]
 However, any shield based on the [MAX3421E][3] chip along with an Uno-type Arduino should work with this sketch.
 
 For the specific shield that I used, a few hardware configuration changes are necessary to function properly:
+
 - Close the 5V power pad near the "VBUS PWR" silkscreen with a solder blob. Leave the 3.3V pad open. That is, the 5V pad with the "VBUS Power Select" label in this [photo][6].
 - Close both the 5V and 3.3V pads near the power pins on the Arduino header connector. That is, the pads labeled "Power Select" in the [photo][6].
 
@@ -27,12 +28,9 @@ If attempting to use an [Arduino Pro][7] instead of an UNO, note that a separate
 
 References
 ----------
-* [USB Host Shield Library][1]
-* Host Shield [Project Page][5] by Oleg Mazurov
 
-License
--------
-The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
+- [USB Host Shield Library][1]
+- Host Shield [Project Page][5] by Oleg Mazurov
 
 [1]: https://github.com/felis/USB_Host_Shield_2.0
 [2]: https://www.amazon.com/gp/product/B07J2KKGZ4
@@ -41,5 +39,3 @@ The software and other files in this repository are released under what is commo
 [5]: https://chome.nerpa.tech/arduino_usb_host_shield_projects/
 [6]: https://chome.nerpa.tech/wp/wp-content/uploads/2011/02/uhs20s_pin_layout.jpg
 [7]: https://www.sparkfun.com/products/10915
-[100]: https://choosealicense.com/licenses/mit/
-[101]: ./LICENSE.txt
