@@ -1,5 +1,7 @@
-USB Host ASCII Keyboard
-=======================
+# USB Host ASCII Keyboard
+
+[![Arduino Compile Sketches](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/arduino-compile-sketches.yml)
+[![Check Markdown Links](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/CheckMarkdownLinks.yml)
 
 This sketch implements a simple USB to ASCII keyboard translator for use with a USB Host Shield for Arduino. It uses Serial.print() to output the ASCII character of the key pressed on the keyboard. ASCII control characters are also supported (e.g. [CTRL]-M prints ASCII 0x0D -- carriage return).
 
@@ -7,13 +9,11 @@ This setup can be useful for interfacing with retro computer builds that do not 
 
 The sketch has been tested on keyboards with and without built-in USB hubs.
 
-Optional LED
-------------
+## Optional LED
 
 An LED/Resistor combo can be connected to the Host Shield output pin 7 and GND to indicate that a Keyboard is connected and running. Note that this is using the GPIO available on the [MAX3421E][3] chip, not the Arduino I/O.
 
-Host Shield Hardware
---------------------
+## Host Shield Hardware
 
 I used this [generic shield][2] from Amazon, along with a SparkFun [RedBoard][4].
 
@@ -26,8 +26,7 @@ For the specific shield that I used, a few hardware configuration changes are ne
 
 If attempting to use an [Arduino Pro][7] instead of an UNO, note that a separate 3.3V regulator is needed, since the Pro does not provide 3.3V power. In additon, the 3.3V "Power Select" pad should be left open (otherwise the Pro will supply 5V to the 3.3V logic on the shield.
 
-References
-----------
+## References
 
 - [USB Host Shield Library][1]
 - Host Shield [Project Page][5] by Oleg Mazurov
