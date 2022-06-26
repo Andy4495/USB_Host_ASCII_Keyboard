@@ -31,6 +31,14 @@ If attempting to use an [Arduino Pro][7] instead of an UNO, note that a separate
 - [USB Host Shield Library][1]
 - Host Shield [Project Page][5] by Oleg Mazurov
 
+## License
+
+The sketch `USB_Host_ASCII_Keyboard.ino` is released under the [GPL-2.0 license][8], as is the sketch it is [based off of][9].
+
+The other files in this repository are released under what is commonly called the [MIT License][100].
+
+See the file [`LICENSE.txt`][101] in this repository.
+
 [1]: https://github.com/felis/USB_Host_Shield_2.0
 [2]: https://www.amazon.com/gp/product/B07J2KKGZ4
 [3]: https://www.maximintegrated.com/en/products/interface/controllers-expanders/MAX3421E.html
@@ -38,4 +46,8 @@ If attempting to use an [Arduino Pro][7] instead of an UNO, note that a separate
 [5]: https://chome.nerpa.tech/arduino_usb_host_shield_projects/
 [6]: https://chome.nerpa.tech/wp/wp-content/uploads/2011/02/uhs20s_pin_layout.jpg
 [7]: https://www.sparkfun.com/products/10915
+[8]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+[9]: https://github.com/felis/USB_Host_Shield_2.0/blob/master/examples/HID/USBHIDBootKbd/USBHIDBootKbd.ino
+[100]: https://choosealicense.com/licenses/mit/
+[101]: ./LICENSE.txt
 [200]: https://github.com/Andy4495/USB_Host_ASCII_Keyboard

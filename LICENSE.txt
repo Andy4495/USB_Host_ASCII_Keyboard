@@ -1,5 +1,13 @@
 Copyright (c) 2021 Andreas Taylor 
 
+The sketch USB_Host_ASCII_Keyboard.ino is released under the GPL-2.0 license, 
+as is the sketch it is based off of (https://github.com/felis/USB_Host_Shield_2.0->examples/HID/USBHIDBootKbd/USBHIDBootKbd.ino). 
+
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+The other files in this repository are released under the following license, 
+often referred to as the MIT license: 
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
