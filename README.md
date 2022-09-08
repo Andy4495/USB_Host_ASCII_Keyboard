@@ -50,4 +50,4 @@ See the file [`LICENSE.txt`][101] in this repository.
 [9]: https://github.com/felis/USB_Host_Shield_2.0/blob/master/examples/HID/USBHIDBootKbd/USBHIDBootKbd.ino
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
-[200]: https://github.com/Andy4495/USB_Host_ASCII_Keyboard
+[//]: # ([200]: https://github.com/Andy4495/USB_Host_ASCII_Keyboard)
