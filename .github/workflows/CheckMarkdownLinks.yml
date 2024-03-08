@@ -18,11 +18,8 @@ on:
 
 jobs:
   markdown-link-check:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@main
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        base-branch: main
-        use-verbose-mode: yes
+    name: call-markdown-link-check-workflow
+    uses: Andy4495/.github/.github/workflows/CheckMarkdownLinks.yml@main         
+    with:
+      message: ${{ inputs.message }}
             
