@@ -40,7 +40,7 @@ See the file [`LICENSE.txt`][101] in this repository.
 
 [1]: https://github.com/felis/USB_Host_Shield_2.0
 [2]: https://www.amazon.com/gp/product/B07J2KKGZ4
-[3]: https://www.maximintegrated.com/en/products/interface/controllers-expanders/MAX3421E.html
+[3]: https://www.analog.com/en/products/max3421e.html
 [4]: https://www.sparkfun.com/products/13975
 [6]: ./extras/USB-Host-Shield.jpg
 [7]: https://www.sparkfun.com/products/10915
@@ -50,3 +50,4 @@ See the file [`LICENSE.txt`][101] in this repository.
 [101]: ./LICENSE.txt
 [//]: # ([200]: https://github.com/Andy4495/USB_Host_ASCII_Keyboard)
 [//]: # ([5]: https://chome.nerpa.tech/arduino_usb_host_shield_projects/)
+[//]: # ([3]: https://www.maximintegrated.com/en/products/interface/controllers-expanders/MAX3421E.html)
