@@ -1,7 +1,7 @@
 # USB Host ASCII Keyboard
 
 [![Arduino Compile Sketches](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/arduino-compile-sketches.yml)
-[![Check Markdown Links](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/CheckMarkdownLinks.yml)
+[![Check Markdown Links](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/check-links.yml/badge.svg)](https://github.com/Andy4495/USB_Host_ASCII_Keyboard/actions/workflows/check-links.yml)
 
 This sketch implements a simple USB to ASCII keyboard translator for use with a USB Host Shield for Arduino. It uses Serial.print() to output the ASCII character of the key pressed on the keyboard. ASCII control characters are also supported (e.g. [CTRL]-M prints ASCII 0x0D -- carriage return).
 
