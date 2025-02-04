@@ -24,7 +24,7 @@ For the specific shield that I used, a few hardware configuration changes are ne
 - Close the 5V power pad near the "VBUS PWR" silkscreen with a solder blob. Leave the 3.3V pad open. That is, the 5V pad with the "VBUS Power Select" label in this [photo][6].
 - Close both the 5V and 3.3V pads near the power pins on the Arduino header connector. That is, the pads labeled "Power Select" in the [photo][6].
 
-If attempting to use an [Arduino Pro][7] instead of an UNO, note that a separate 3.3V regulator is needed, since the Pro does not provide 3.3V power. In additon, the 3.3V "Power Select" pad should be left open (otherwise the Pro will supply 5V to the 3.3V logic on the shield.
+If attempting to use the 5V version of an [Arduino Pro][7] instead of an UNO, note that a separate 3.3V regulator is needed, since the 5V Pro does not provide 3.3V power. In additon, the 3.3V "Power Select" pad should be left open; otherwise, the Pro will supply 5V to the 3.3V logic on the shield.
 
 ## References
 
@@ -43,7 +43,7 @@ See the file [`LICENSE.txt`][101] in this repository.
 [3]: https://www.analog.com/en/products/max3421e.html
 [4]: https://www.sparkfun.com/products/13975
 [6]: ./extras/USB-Host-Shield.jpg
-[7]: https://www.sparkfun.com/products/10915
+[7]: https://www.sparkfun.com/products/10914
 [8]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 [9]: https://github.com/felis/USB_Host_Shield_2.0/blob/master/examples/HID/USBHIDBootKbd/USBHIDBootKbd.ino
 [100]: https://choosealicense.com/licenses/mit/
