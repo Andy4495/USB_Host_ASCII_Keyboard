@@ -32,7 +32,7 @@ If attempting to use the 5V version of an [Arduino Pro][7] instead of an UNO, no
 
 ## License
 
-The sketch `USB_Host_ASCII_Keyboard.ino` is released under the [GPL-2.0 license][8], as is the sketch it is [based off of][9].
+The sketch `USB_Host_ASCII_Keyboard.ino` is released under the [GPL-2.0 license][8] ([plain text version][10]), as is the sketch it is [based off of][9].
 
 The other files in this repository are released under what is commonly called the [MIT License][100].
 
@@ -46,6 +46,7 @@ See the file [`LICENSE.txt`][101] in this repository.
 [7]: https://www.sparkfun.com/products/10914
 [8]: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 [9]: https://github.com/felis/USB_Host_Shield_2.0/blob/master/examples/HID/USBHIDBootKbd/USBHIDBootKbd.ino
+[10]: ./extras/gpl-2.0.txt
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [//]: # ([200]: https://github.com/Andy4495/USB_Host_ASCII_Keyboard)
